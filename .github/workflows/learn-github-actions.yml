@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: pip3 install ansible 
-      - run: ansible all -i ~/hosts  -m ping
+      - run: /usr/local/bin/ansible all -i /home/jack/hosts  -m ping
