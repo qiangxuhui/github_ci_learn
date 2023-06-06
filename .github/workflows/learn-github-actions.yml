@@ -10,3 +10,4 @@ jobs:
       - uses: actions/checkout@v3
       - run: pip3 install ansible 
       - run: /usr/local/bin/ansible all -i /home/jack/hosts  -m shell -a "ls"
+      - run: exit 1
