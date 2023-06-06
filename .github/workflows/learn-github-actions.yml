@@ -1,0 +1,11 @@
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+# 指定此工作流程的触发器
+on: [push]
+jobs:
+  # 定义名称为"check-bats-version"的job
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo hello
