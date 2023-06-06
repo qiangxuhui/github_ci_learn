@@ -8,3 +8,7 @@
 ## 00x01 自托管机器
 
 1. [添加自托管机器](https://docs.github.com/zh/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners) 
+
+## 00x02 sshfs
+
+1. [sshfs](https://linux.cn/article-7855-1.html)
