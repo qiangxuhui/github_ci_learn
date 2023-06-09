@@ -8,4 +8,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
-      - run: build_path=`pwd` && /usr/local/bin/ansible la -i /home/runner/hosts -m shell -a "echo ${build_path}"
+      - run: /usr/local/bin/ansible la -i /home/runner/hosts -m shell -a "cd /home/runner/actions-runner/_work/github_ci_learn/github_ci_learn/ && make build"
