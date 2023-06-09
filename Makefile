@@ -1,2 +1,2 @@
 build:
-	docker build -f demo/Dockerfile -t . 
+	docker build -f demo/Dockerfile -t hello . 
