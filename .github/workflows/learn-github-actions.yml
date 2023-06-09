@@ -4,10 +4,8 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
   # 定义名称为"check-bats-version"的job
-  check-bats-version:
+  image-build:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
-      - run: pip3 install ansible 
-      - run: /usr/local/bin/ansible all -i /home/jack/hosts  -m shell -a "ls"
-      - run: exit 1
+      - run: build_path=`pwd` && echo "${build_path}"
