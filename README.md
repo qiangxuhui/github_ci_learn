@@ -12,3 +12,7 @@
 ## 00x02 sshfs
 
 1. [sshfs](https://linux.cn/article-7855-1.html)
+
+## 00x03 使用代理
+
+1. [runner使用代理](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/using-a-proxy-server-with-self-hosted-runners)
